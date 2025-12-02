@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  /* outline: 4px solid green !important; */ /*покаже границі кожного тега*/
+}
+.menu {
+  width: 1200px;
+  /* margin: 0 auto; */
+  background-color: darkgray;
+}
+.container {
+  background-image: url(img/22.jpg);
+  background-repeat: no-repeat;
+  display: flex;
+}
+.text {
+  padding: 25px;
+  align-self: center;
+}
+span {
+  color: blue;
+}
+.text p {
+  padding: 20px;
+  margin: 30px 0;
+}
+.image {
+  background-image: url(img/11.jpg);
+  height: 320px;
+  width: 1100px;
+}
+.four-one {
+  display: flex;
+  padding: 20px;
+}
+.four img {
+  height: 80px;
+  width: 80px;
+  align-self: center;
+}
+.block {
+  display: flex;
+}
+.block-info {
+  padding: 0 20px;
+  /* justify-self: center; */
+}
+.block h4 {
+  color: red;
+}
+.two {
+  display: flex;
+  /* flex-direction: column; */
+  /* min-height: 100%; */
+}
+.four-one {
+  /* width: 700px; */
+  /* margin-right: 20px; */
+}
+.four-two {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.four-footer {
+  padding: 20px;
+}
+.monitor-four {
+  margin: 10px;
+}
+.monitor-text {
+  display: flex;
+  justify-content: space-around;
+}
+.monitor-text p {
+  padding: 10px;
+}
+.brand {
+  display: flex;
+  justify-content: space-around;
+}
